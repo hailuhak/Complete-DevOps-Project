@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.json({
-    message: "DevOps Engineering Lab API is running",
+    message: "DevOps Engineering API is running",
   });
 });
 

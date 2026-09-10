@@ -1,10 +1,12 @@
 {
   "name": "complete-devops-project",
   "version": "1.0.0",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "homepage": "https://github.com/hailuhak/Complete-DevOps-Project#readme",
   "description": "",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1"
   }
 }
