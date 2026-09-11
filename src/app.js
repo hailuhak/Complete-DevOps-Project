@@ -1,12 +1,12 @@
-import express from "express";
+import express from 'express';
 
 const app = express();
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
+app.get('/', (req, res) => {
   res.json({
-    message: "DevOps Engineering API is running",
+    message: 'DevOps Engineering API is running',
   });
 });
 
