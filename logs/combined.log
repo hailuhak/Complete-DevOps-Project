@@ -1,0 +1,8 @@
+{"level":"info","message":"GET / - API health check","service":"devops-api","timestamp":"2026-10-18T08:39:47.801Z"}
+{"level":"info","message":"::1 - - [18/Oct/2026:08:39:47 +0000] \"GET / HTTP/1.1\" 200 47 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\"","service":"devops-api","timestamp":"2026-10-18T08:39:47.835Z"}
+{"level":"info","message":"::1 - - [18/Oct/2026:08:39:48 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\"","service":"devops-api","timestamp":"2026-10-18T08:39:48.392Z"}
+{"level":"info","message":"GET / - API health check","service":"devops-api","timestamp":"2026-10-18T09:11:23.431Z"}
+{"level":"info","message":"::1 - - [18/Oct/2026:09:11:23 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\"","service":"devops-api","timestamp":"2026-10-18T09:11:23.449Z"}
+{"level":"info","message":"GET / - API health check","service":"devops-api","timestamp":"2026-10-18T09:11:38.582Z"}
+{"level":"info","message":"::1 - - [18/Oct/2026:09:11:38 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\"","service":"devops-api","timestamp":"2026-10-18T09:11:38.586Z"}
+{"level":"info","message":"::1 - - [18/Oct/2026:09:12:04 +0000] \"GET /iuygf HTTP/1.1\" 404 29 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36\"","service":"devops-api","timestamp":"2026-10-18T09:12:04.439Z"}

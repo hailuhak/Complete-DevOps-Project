@@ -2,10 +2,14 @@ import winston from 'winston';
 
 const logger = winston.createLogger({
   level: process.env.LOG_LEVEL || 'info',
-  format: winston.format.combine(winston.format.timestamp(), winston.format.json()),
+  format: winston.format.combine(
+    winston.format.timestamp(),
+    winston.format.errors(),
+    winston.format.json()),
+   defaultMeta: {
+    service: "devops-api",
+  },
   transports: [
-    new winston.transports.Console(),
-
     new winston.transports.File({
       filename: 'logs/error.log',
       level: 'error',
@@ -16,5 +20,14 @@ const logger = winston.createLogger({
     }),
   ],
 });
-
+if (process.env.NODE_ENV !== "production") {
+   logger.add(
+      new winston.transports.Console({
+         format: winston.format.combine(
+            winston.format.colorize(),
+           winston.format.simple(),
+         ),
+      })
+   );
+}
 export default logger;
